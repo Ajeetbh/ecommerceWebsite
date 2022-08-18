@@ -1,0 +1,43 @@
+.product{
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background-color:lightskyblue;
+    align-items: left;
+}
+ 
+.card{
+    width: 250px;
+    height: 380px;
+    border: 1px solid hsl(0, 24%, 19%);
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 40px 20px;
+    background-color: white;
+}
+.product-image{
+    width: 100%;
+    max-width:200px;
+    min-height: 150px;
+    object-fit: cover;
+}
+.product-name{
+    margin: 10px 0px;
+}
+.product-price{
+    margin: 10px 0px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.product .product-add-button{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
